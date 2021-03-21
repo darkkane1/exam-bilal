@@ -1,0 +1,56 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin : 0;
+}
+.home{
+	font-size: 30px;
+	font-weight: 500;
+	
+	position: fixed;
+	width: 100%;
+}
+.home .h_width{
+	display : flex;
+}
+.h_width .left{
+	margin-right: 500px;
+}
+.h_width .right ul{
+	display : flex;
+}
+.h_width .right a{
+	margin-right : 70px;
+}
+.h_width .right a span{
+	color : black;
+}
+.h_width .right  .G1{
+	color : blue;
+}
+.h_width .right  .G2{
+	color : blue;
+}
+/**************************************************************/
+.body{
+	display : flex;
+	margin-top : 15px;
+}
+.body .left{
+	
+	height: 500px;
+	width: 25%;
+	
+	
+}
+.body{
+	background-color: white;
+}
+.body .d1 {
+	display : flex;
+}
+.body img{
+	margin-top : 50px;
+}
+

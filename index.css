@@ -1,0 +1,191 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding 		 : 0;
+	margin           : 0;
+	
+
+}
+.home{
+	font-size: 30px;
+	font-weight: 500;
+	background-color:grey;
+	position : fixed;
+	width : 100%;
+	
+}
+.home .h_width{
+	display : flex;
+}
+.h_width .left{
+	margin-right: 500px;
+}
+.h_width .right ul{
+	display : flex;
+}
+.h_width .right a{
+	margin-right : 20px;
+}
+.h_width .right a span{
+	color : white;
+}
+.h_width .right  .G1{
+	color : black;
+}
+.h_width .right  .G2{
+	color : black;
+}
+.h_width .right  .G1:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right  .G2:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right  .G3:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right .G3{
+	color : black;
+}
+
+.logo{
+	color : orange;
+}
+.logo span{
+	color : orange;
+}
+/******************************************************************************************/
+.body{
+	
+	display :flex;
+	padding-top : 50px;
+}
+.body  a{
+	margin : 20px auto;
+}
+
+.body .left{
+	width : 25%;
+	background-color : grey;
+}*
+.body .center{
+	width : 50%;
+	display: flex;
+
+
+	
+
+}
+.body .right{
+	width : 25%;
+	background-color : grey;
+	
+}
+.body .right .video{
+	width : 100%;
+}
+/***************************************************************************/
+.body2{
+	background-color: grey;
+}
+.body2 .center{
+	position : center;
+	
+
+}
+/******************************************************************************************/
+.body3 .left{
+	width : 50%;
+	background-color: pink;
+}
+.body3 .right{
+	width : 50%;
+	background-color: orange;
+
+}
+/******************************************************************************************/
+.body5 .form{
+	margin-top : 20px;
+	margin-left:0px;
+}
+.body5 .left{
+	
+	width: 14%;
+	margin-top : 10px;
+	margin-left:250px;
+	padding-top:1px;
+	padding-bottom: 3px;
+	padding-right: 2px;
+	padding-left:2px;
+
+}
+.body5 .left .texte{
+	margin-right: 5px;
+
+}
+.body5 .left .m{
+	margin-right: 5px;
+}
+.body5 .left .coche{
+	color: white;
+	margin-bottom :5px;
+	background-color: auto;
+}.body5 .left .fb{
+	margin-bottom :5px;
+	background-color: blue;
+	width : 98%;
+}
+.body5 .left .fb a{
+	
+	color : white;
+	border : 2px solid black;
+}
+.body5 .left .twitter{
+	margin-bottom :5px;
+	background-color: blue;
+	width : 89%;
+}
+.body5 .left .twitter a{
+	margin-bottom :5px;
+	color : white;
+	border : 2px solid black;
+}
+/******************************************************************************************/
+/******************************************************************************************/
+.end{
+	background-color: grey;
+	width: 100%;
+
+}
+.end ul{
+	color : white;
+	display : flex;
+
+}
+.end ul a{
+	color : white;
+	margin-left : 20px;
+	text-align : center;
+}
+.end ul a:hover{
+	text-decoration: underline white;
+	transition: 1s;
+}
+.end p{
+	color : white;
+	text-align: justify;
+	margin-left : 300px;
+}
+.end p span{
+	color : orange;
+}
+.end pre{
+	font-size : 20px;
+	color  : white;
+}

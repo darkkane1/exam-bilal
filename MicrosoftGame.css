@@ -1,0 +1,62 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding 		 : 0;
+	margin           : 0;
+	
+
+}
+.home{
+	font-size: 30px;
+	font-weight: 500;
+	background-color:grey;
+	position : fixed;
+	width : 100%;
+	
+}
+.home .h_width{
+	display : flex;
+}
+.h_width .left{
+	margin-right: 500px;
+}
+.h_width .right ul{
+	display : flex;
+}
+.h_width .right a{
+	margin-right : 20px;
+}
+.h_width .right a span{
+	color : white;
+}
+.h_width .right  .G1{
+	color : black;
+}
+.h_width .right  .G2{
+	color : black;
+}
+.h_width .right  .G1:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right  .G2:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right  .G3:hover {
+	
+	transition: 1s;
+	text-decoration: underline orange;
+}
+.h_width .right .G3{
+	color : black;
+}
+
+.logo{
+	color : orange;
+}
+.logo span{
+	color : orange;
+}
